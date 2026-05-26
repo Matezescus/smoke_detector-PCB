@@ -1,0 +1,131 @@
+Wire List
+
+                                              Revised: Saturday, January 17, 2026
+E:\PROIECT PCAD P28\PCAD SMOKEDETECTORCVARIANTRevision: 
+
+
+
+
+
+
+<<< Component List >>>
+100micrF                      C1        CAP196
+10micrF                       C2        CAP196
+DIODE                         D1        DO35
+LED                           D2        CAP196
+LM1801                        IC1       DIP14_3
+CON2                          J1        JUMPER2
+CON2                          J2        JUMPER2
+LDR2                          LDR1      JUMPER2
+LDR1                          LDR2      JUMPER2
+siren                         LS1       JUMPER2
+10M                           P1        vres40
+6.8K/5W                       R1        res400
+2.7k                          R10       res400
+10K                           R11       res400
+2.2K                          R2        res400
+2.2M                          R3        res400
+1M                            R4        res400
+560k                          R5        res400
+3.9M                          R6        res400
+8.2M                          R7        res400
+1K                            R8        res400
+47K                           R9        res400
+THC106M                       Th1       TO220ABVF2
+
+<<< Wire List >>>
+
+  NODE  REFERENCE    PIN #   PIN NAME           PIN TYPE       PART VALUE
+
+[00001] 230V AC
+        LS1             1       1               Passive        siren
+        J1              1       1               Passive        CON2
+        D1              1       A               Passive        DIODE
+
+[00002] GND
+        Th1             2       CATHODE         Passive        THC106M
+        P1              3       B               Passive        10M
+        P1              2       WIPER           Passive        10M
+        C1              2       2               Passive        100micrF
+        J1              2       2               Passive        CON2
+        J2              2       2               Passive        CON2
+        LDR1            2       2               Passive        LDR2
+        LDR2            2       2               Passive        LDR1
+        R8              2       2               Passive        1K
+        R11             2       2               Passive        10K
+        R7              2       2               Passive        8.2M
+        IC1             11      PIN11           Passive        LM1801
+        C2              2       2               Passive        10micrF
+
+[00003] N00457
+        J2              1       1               Passive        CON2
+        IC1             1       PIN1            Passive        LM1801
+
+[00004] N00556
+        LS1             2       2               Passive        siren
+        Th1             3       ANODE           Passive        THC106M
+
+[00005] N00794
+        R10             1       1               Passive        2.7k
+        IC1             14      PIN14           Passive        LM1801
+
+[00006] N00862
+        Th1             1       GATE            Passive        THC106M
+        R10             2       2               Passive        2.7k
+        R11             1       1               Passive        10K
+
+[00007] N02898
+        R5              1       1               Passive        560k
+        R4              1       1               Passive        1M
+        IC1             7       PIN7            Passive        LM1801
+
+[00008] N02990
+        R6              2       2               Passive        3.9M
+        R7              1       1               Passive        8.2M
+        IC1             8       PIN8            Passive        LM1801
+
+[00009] N03171
+        LDR2            1       1               Passive        LDR1
+        R5              2       2               Passive        560k
+        R6              1       1               Passive        3.9M
+
+[00010] N03667
+        R3              2       2               Passive        2.2M
+        IC1             6       PIN6            Passive        LM1801
+
+[00011] N03675
+        R1              1       1               Passive        6.8K/5W
+        C1              1       1               Passive        100micrF
+        R2              1       1               Passive        2.2K
+        IC1             2       PIN2            Passive        LM1801
+        IC1             3       PIN3            Passive        LM1801
+        D2              1       ANODE           Passive        LED
+
+[00012] N03680
+        R8              1       1               Passive        1K
+        R2              2       2               Passive        2.2K
+        R3              1       1               Passive        2.2M
+        D2              2       CATHODE         Passive        LED
+
+[00013] N06378
+        R1              2       2               Passive        6.8K/5W
+        D1              2       K               Passive        DIODE
+
+[00014] N10412
+        LDR1            1       1               Passive        LDR2
+        R4              2       2               Passive        1M
+        IC1             9       PIN9            Passive        LM1801
+
+[00015] N22426
+        IC1             10      PIN10           Passive        LM1801
+        C2              1       1               Passive        10micrF
+
+[00016] N22586
+        P1              1       A               Passive        10M
+        R9              2       2               Passive        47K
+        IC1             13      PIN13           Passive        LM1801
+
+[00017] N23591
+        R9              1       1               Passive        47K
+        IC1             12      PIN12           Passive        LM1801
+

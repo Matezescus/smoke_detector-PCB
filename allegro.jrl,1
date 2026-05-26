@@ -1,0 +1,55 @@
+\t (00:00:26) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:26)     Journal start - Fri Feb 06 12:05:06 2026
+\t (00:00:26)         Host=MATEZESCUPC User=matee Pid=34348 CPUs=16
+\t (00:00:26) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:26) 
+   (00:00:26) Loading axlcore.cxt 
+\t (00:00:26) Opening existing design...
+\d (00:00:27) Design opened: E:/proiect pcad p28/varianta oficiala sper/PCAD SMOKEDETECTORultimasedinta.brd
+\i (00:00:27) trapsize 95
+\i (00:00:28) trapsize 98
+\i (00:00:28) trapsize 98
+\i (00:00:28) generaledit 
+\i (00:14:34) trapsize 81
+\i (00:14:35) 3d_viewer 
+\i (00:14:36) setwindow pcb3D
+\i (00:14:36) trapsize 81
+\i (00:14:36) setwindow pcb
+\i (00:14:36) generaledit 
+\i (00:14:46) generaledit 
+\i (00:14:48) setwindow form.find
+\i (00:14:48) FORM find all_off  
+\i (00:14:50) FORM find shapes YES 
+\i (00:14:52) setwindow pcb
+\i (00:14:52) pick grid 70.13 47.30
+\t (00:14:52) last pick:  70.20 47.40
+\i (00:14:55) show element 
+\i (00:14:55) generaledit 
+\i (00:15:05) setwindow text
+\i (00:15:05) close
+\i (00:15:06) pick grid 105.22 15.46
+\t (00:15:06) last pick:  105.00 15.60
+\i (00:15:56) zoom in 1 
+\i (00:15:56) setwindow pcb
+\i (00:15:56) zoom in 48.04 55.59
+\i (00:15:56) trapsize 41
+\i (00:15:59) setwindow form.find
+\i (00:15:59) FORM find all_off  
+\i (00:16:01) FORM find cline_segs YES 
+\i (00:16:06) setwindow pcb
+\i (00:16:06) zoom out 1 
+\i (00:16:06) setwindow pcb
+\i (00:16:06) zoom out 55.35 44.95
+\i (00:16:06) trapsize 81
+\i (00:16:07) zoom in 1 
+\i (00:16:07) setwindow pcb
+\i (00:16:07) zoom in 38.12 35.36
+\i (00:16:07) trapsize 41
+\i (00:16:08) zoom out 1 
+\i (00:16:08) setwindow pcb
+\i (00:16:08) zoom out 38.13 35.36
+\i (00:16:08) trapsize 81
+\i (00:18:11) exit 
+\e (00:18:11) Do you want to save the changes you made to PCAD SMOKEDETECTORultimasedinta.brd?
+\i (00:18:25) fillin yes 
+\t (00:18:26)     Journal end - Fri Feb 06 12:23:06 2026

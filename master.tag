@@ -1,0 +1,1 @@
+PCAD SMOKEDETECTORultimasedinta.brd

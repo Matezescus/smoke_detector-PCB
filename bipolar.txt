@@ -1,0 +1,35 @@
+Tranzistorul bipolar este un dispozitiv semiconductor activ, controlat în curent, în care conducția electrică se realizează cu participarea ambelor tipuri de purtători: electroni și golurI
+-BIPOLAR PTC PARTICIPA 2 CONDUCTORI 
+Tipuri:npn,pnp
+structura: emitor(E)-puternic dopat,baza(B) -foarte putin dopat si subtire ,iar collector moderat dopat
+-are 2 jonct pn:BE-polarizata direct BC-polarizata invers(pt amplificare)
+
+BIPOLARUL E COTNTROLAT IN CURENT DEOARECE CURENTUL DE COLECTOR E CONTROLAT DE CURENTUL DE BAZA,IAR FARA CURENT DE BAZA NU AVEM CEL DE COLECTOR
+aici apar 2 factori de ampif-alfa=ic/ie iar beta=ic/ib 
+
+PSF:TREBUIE ALES IN RAN,DOAR ACOLO RELATIILE DE AMPLIFICARE SUNT VALIDE SI TRANZISTORUL FUNCTIONEAZA LINIAR 
+RAN-FIZIC-ELECTRONI INJECTATI DIN EMITOR IN BAZA ,IAR MAJORITATEA SUNT COLECTATI DE COLECTOR 
+
+
+Parametri static bipolar (BJT)
+IC-current collector 
+factor de amplificare in current beta
+-rezistenta de iesire ro ce apare din efectul early-r măsoară cât de mult depinde curentul de colector de tensiunea colector–emitor.
+​ mare → tranzistor mai „ideal”​
+ mic → variații mari ale lui 
+-alfa e parametru statiac
+
+
+
+Efectul Early constă în micșorarea lățimii bazei efective atunci când crește tensiunea colector–bază, ceea ce duce la creșterea curentului de colector și la apariția unei rezistențe de ieșire finite.
+
+
+parametri intalniti:
+rezistenta de intrare rpi-rezistenta dinamica a jonctiunii baza emitor de ramane in AC,ce arata cat de greu sau usor se comanda in current tranzistorul 
+
+
+Intrebare: De ce tranzistorul amplifica in RAD si nu in RAI ? Intrebare : Care sunt regimurile in care MOS si bipolar sunt COMUTATOARE ?
+-explicit jonctiune in ran si rai
+IN RAN:EMITORUL E PUTERNIC DOPAT DECI INJECTEAZA MAI MULTI ELECTRONI IAR BAZA E SLAB DOPATA,DECI CEI MAI MULTI ELECTRONI AJUNG LA COLECTOR DEI AMPLIFICAREA E MAI MARE
+IN RAI:BC E DIRECT BE INVERS DECI COLECTORUL NU E PROIECTAT SA INJECTEZE PURATTORI ,IAR FOARTE MULTI SE RECOMBINA IN BAZA 
+z

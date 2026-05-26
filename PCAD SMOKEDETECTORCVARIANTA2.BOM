@@ -1,0 +1,36 @@
+DETECTOR DE FUM P28  Revised: Monday, January 19, 2026
+Echipa 3          Revision: 
+
+STUDENTI:
+Mateescu Andrei-Alexandru
+Babina Catalina Luciana 
+
+
+
+Bill Of Materials        January 23,2026      21:49:06	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	C1	100micrF
+2	1	C2	10micrF
+3	1	D1	DIODE
+4	1	D2	LED
+5	1	IC1	LM1801
+6	2	J1,J2	CON2
+7	1	LDR1	LDR2
+8	1	LDR2	LDR1
+9	1	LS1	siren
+10	1	P1	10M
+11	1	R1	6.8K/5W
+12	1	R2	2.2K
+13	1	R3	2.2M
+14	1	R4	1M
+15	1	R5	560k
+16	1	R6	3.9M
+17	1	R7	8.2M
+18	1	R8	1K
+19	1	R9	47K
+20	1	R10	2.7k
+21	1	R11	10K
+22	1	Th1	THC106M

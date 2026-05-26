@@ -1,0 +1,41 @@
+MOS-disp semiconductor controlat de tensiune,unde curentul de drena si sursa e controlat de tens la poarta
+-poarta,drena,sursa ,substrat
+-ideal:ig=0-izolat electric
+-tipuri de mos:
+a)dupa tip canal
+nmos-canal electroni
+pmos-canal goluri
+b)dupa existenta canal 
+-canal indus(cel mai folosit)
+-canal initial-din fabricatie(rar)
+
+-VT=TENSIUNEA GS PENTRU CARE APARE CANALUL DE INVERSIUNE SI INCEPE CONDUCTIE INDRE DRENA SI SURSA
+-NMOS-VT>0
+PMOS-VT<0
+VT scade cu temperature deoarece conc purtatorilor creste deci inversiunea apare mai usor 
+
+regimuri MOS:
+1.blocare-vgs<vt,nu exista canal ,id e aprox 0 
+2.Regim liniar (ohmic):vgs>vt,vds<vgs-vt-canal complet iar mos ul se comporta ca un resistor controlat in tensiune,adica rezistenta echivalenta nu e constanta depinde de vgs si poarta controleaza grosimea canalului 
+3.regim de saturatie:vgs>vt si vds>=vgs-vt,canal ciupit la drena,iar id depinde in principiu de vgs si este un regim de amplificare
+
+-de stiut ecuatia
+-param static MOS:
+gm-derivate curentului in functie de tens la poarta sursa vgs 
+rezistenta r0
+
+
+Canalul este regiunea sub poartă în care apare o zonă conductoare ce leagă sursa de drenă, permițând trecerea curentului,creat electrostatic de tens vgs,apare sub poarta mos 
+Canalul de inversiune este canalul format din purtători de semn opus față de purtătorii majoritari ai substratului.
+exemplu la nmos avem electronii ca purtatori de current iar pentru vgs<vt nu exista canal de inversiune si tranzistorul e blocat,daca vgs creste si atinge vt atunci apare inversiunea 
+
+De ce MOS este controlat în tensiune?
+poarta este izolată de canal prin oxid
+curentul de poartă este ideal zero
+👉 asta îl face:
+foarte potrivit pentru circuite integrate
+cu consum mic
+
+MOS CU CANAL INDUS ADICA CANALUL NU EXISTA IN ABSENTA TENSIUNII DE POARTA CI E CREAT CAND VGS DEPASESTE VT ,
+GM-TRANSCONDUCTANTA-reprezintă variația curentului de drenă produsă de o variație mică a tensiunii poartă–sursă, în jurul punctului static de funcționare.ARATA CAT DE EFICIENT CONTROLEAZA TENS DE POARTA CURENTUL DE DRENA +TANGENTA 
+
